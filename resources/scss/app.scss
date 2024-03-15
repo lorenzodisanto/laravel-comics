@@ -1,1 +1,44 @@
 @import "~bootstrap/scss/bootstrap";
+
+header {
+    .header-top {
+        height: 30px;
+        background-color: #0282f9;
+    }
+
+    .header-link {
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            display: inline-block;
+
+            .link {
+                text-decoration: none;
+                color: inherit;
+                font-weight: 600;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.jumbotron {
+    background-image: url(../images/jumbotron.jpg);
+    height: 400px;
+}
+
+.comics {
+    background-color: #1c1c1c;
+
+    .box {
+        color: white;
+        img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
+    }
+}
