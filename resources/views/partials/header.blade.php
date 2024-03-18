@@ -10,34 +10,34 @@
       <!-- lista link -->
       <ul>
         <li>
-            <a class="link" href="#">CHARACTERS</a>
+            <a class="link" href="{{ route('characters') }}">CHARACTERS</a>
         </li>
         <li>
             <a class="link" href="{{ route('comics') }}">COMICS</a>
         </li>
         <li>
-            <a class="link" href="#">MOVIES</a>
+            <a class="link" href="{{ route('movies') }}">MOVIES</a>
         </li>
         <li>
-            <a class="link" href="#">TV</a>
+            <a class="link" href="{{ route('tv') }}">TV</a>
         </li>
         <li>
-            <a class="link" href="#">GAMES</a>
+            <a class="link" href="{{ route('games') }}">GAMES</a>
         </li>
         <li>
-            <a class="link" href="#">COLLECTIBLES</a>
+            <a class="link" href="{{ route('collectibles') }}">COLLECTIBLES</a>
         </li>
         <li>
-            <a class="link" href="#">VIDEOS</a>
+            <a class="link" href="{{ route('videos') }}">VIDEOS</a>
         </li>
         <li>
-            <a class="link" href="#">FANS</a>
+            <a class="link" href="{{ route('fans') }}">FANS</a>
         </li>
         <li>
-            <a class="link" href="#">NEWS</a>
+            <a class="link" href="{{ route('news') }}">NEWS</a>
         </li>
         <li>
-            <a class="link" href="#">SHOP</a>
+            <a class="link" href="{{ route('shop') }}">SHOP</a>
         </li>
       </ul>
 

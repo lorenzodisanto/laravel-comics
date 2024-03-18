@@ -25,6 +25,13 @@ header {
     }
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
 .jumbotron {
     background-image: url(../images/jumbotron.jpg);
     height: 400px;
